@@ -29,7 +29,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <repository.server.root>http://13.55.249.205:8081/repository</repository.server.root>
+    <repository.server.root>${nexus_base_url}/repository</repository.server.root>
      <releases.distribution.url>
         ${repository.server.root}/devops-releases/
      </releases.distribution.url>
