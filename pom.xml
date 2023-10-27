@@ -7,6 +7,7 @@
   <groupId>com.google</groupId>
   <artifactId>pixels</artifactId>
   <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
   <name>pixels</name>
   <!-- FIXME change it to the project's website -->
@@ -25,18 +26,18 @@
         </snapshotRepository>
 </distributionManagement>
 
-<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-    <repository.server.root>${nexus_base_url}/repository</repository.server.root>
-     <releases.distribution.url>
-        ${repository.server.root}/devops-releases/
-     </releases.distribution.url>
-     <snapshots.distribution.url>
-        ${repository.server.root}/devops-snapshots/
-     </snapshots.distribution.url>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <repository.server.root>${nexus_base_url}/repository</repository.server.root>
+        <releases.distribution.url>
+            ${repository.server.root}/devops-releases/
+        </releases.distribution.url>
+        <snapshots.distribution.url>
+            ${repository.server.root}/devops-snapshots/
+        </snapshots.distribution.url>
+    </properties>
 
 
   <dependencies>
