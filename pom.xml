@@ -30,6 +30,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
+        <!--suppress UnresolvedMavenProperty -->
         <repository.server.root>${nexus_base_url}/repository</repository.server.root>
         <releases.distribution.url>
             ${repository.server.root}/devops-releases/
