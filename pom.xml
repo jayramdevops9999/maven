@@ -75,6 +75,10 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
           <version>3.3.2</version> <!-- Use a more recent version -->
+            <configuration>
+                <webXml>/path/to/your/web.xml</webXml>
+                <!-- Other configuration options -->
+            </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
