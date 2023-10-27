@@ -72,8 +72,9 @@
           <version>2.22.1</version> <!-- Use a more recent version -->
         </plugin>
         <plugin>
-          <artifactId>maven-war-plugin</artifactId>
-          <version>3.0.2</version> <!-- Use a more recent version -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.2</version> <!-- Use a more recent version -->
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
